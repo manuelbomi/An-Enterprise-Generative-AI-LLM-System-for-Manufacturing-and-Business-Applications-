@@ -160,9 +160,7 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/499d1334-8d99-4e9a-a1af-46bca80508c9" />
 
----
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4798ecd3-3bf8-4ab6-8595-6e1c7002a671" />
 
 ---
 
