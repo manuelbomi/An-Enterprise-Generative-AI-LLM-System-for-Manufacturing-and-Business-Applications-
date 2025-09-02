@@ -36,11 +36,6 @@ Examples of how the system provide answers through the Streamlit front end are p
 
 ---
 #### Query: 
-
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d4915b91-7dd1-425c-95ea-5cf49d731291" />
-
----
-#### Query: 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2c086c66-62ec-48c2-85c7-bcc04e2fb81d" />
 
 ---
