@@ -32,7 +32,7 @@ The high-level system architecture and the system front end is shown in the figu
 ---
 ### System Streamlit Front-End
 
-Examples of how the system provide answers through the Streamlit front end are provided in the series of figures below:
+Examples of how the system provide answers via the Streamlit front end are provided in the series of figures below:
 
 #### Query: How does GE Vernova's top product delivers on 4R circulatory framework?
 
