@@ -146,11 +146,33 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 ---
 
-##### The set of figure below shows some metrics captured  by Grafana from data logged by Prometheus. The metrics are obtained by navigating to Explore &#8594;  :arrow_right:
+##### The set of figure below shows some metrics captured  by Grafana from data logged by Prometheus. The metrics are obtained by navigating to Explore :arrow_right: Drilldown :arrow_right: Metrics after login on the Grafana dashboard: 
 
 ---
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e18ce078-fd8a-47a3-8059-3fe6feff8670" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/ef74a3ef-b27d-416c-9561-9141d3581e06" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/c2aacc30-d91e-4c5f-87b1-0c6ac100706f" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/499d1334-8d99-4e9a-a1af-46bca80508c9" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4798ecd3-3bf8-4ab6-8595-6e1c7002a671" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4cbe5b46-bff3-4517-a3a0-45f45370d29f" />
+
+---
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/ad72d65f-62ff-43b6-924b-f4a909ee85d3" />
+
+---
 
 
 
