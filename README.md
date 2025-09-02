@@ -23,7 +23,7 @@ Open source <ins>**GE Vernova**</ins> and <ins>**GE Aerospace**</ins> datasets a
 We also discuss how an Enterprise Architect may work alongside the Solution Architect to use MLOps (machine learning operations) best practices to scale up the system in an enterprise setting using MLOps and CI/CD orchestration tools such as ZenML, Kubeflow, Airflow and Kubernetes. 
 
 ### System Architecture 
-The high-level system architecture and the system front end are displayed in the figures below:
+The high-level system architecture and the system front end is shown in the figures below:
 
 ---
 
