@@ -1,0 +1,14 @@
+# For Grafana to autoload configuration files, they must be placed in the 
+# appropriate provisioning directories. We can use the yaml config below:
+apiVersion: 1
+
+providers:
+  - name: 'Manufacturing System LLM Dashboards'
+    orgId: 1
+    folder: ''
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards
+      updateIntervalSeconds: 10

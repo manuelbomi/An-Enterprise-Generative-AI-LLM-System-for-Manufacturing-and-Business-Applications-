@@ -1,0 +1,22 @@
+# Core app
+streamlit
+python-dotenv
+
+# LangChain + LLM stack
+langchain
+langchain-pinecone
+langchain-community
+openai
+pinecone-client
+
+# Document loaders & parsing
+unstructured
+pypdf
+
+
+# Metrics
+prometheus-client
+
+# Optional but recommended
+tiktoken
+

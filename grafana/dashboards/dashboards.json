@@ -1,0 +1,118 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Healthcare LLM System Metrics",
+    "tags": ["LLM", "Pinecone", "Prometheus", "Healthcare"],
+    "timezone": "browser",
+    "schemaVersion": 36,
+    "version": 1,
+    "refresh": "5s",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "End-to-End Query Latency (seconds)",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, sum(rate(query_latency_seconds_bucket[5m])) by (le, user))",
+            "legendFormat": "p95 ({{user}})"
+          },
+          {
+            "expr": "histogram_quantile(0.50, sum(rate(query_latency_seconds_bucket[5m])) by (le, user))",
+            "legendFormat": "p50 ({{user}})"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 0, "y": 0, "w": 12, "h": 8 }
+      },
+      {
+        "type": "graph",
+        "title": "LLM & Retrieval Latency",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, sum(rate(llm_latency_seconds_bucket[5m])) by (le, user))",
+            "legendFormat": "LLM p95 ({{user}})"
+          },
+          {
+            "expr": "histogram_quantile(0.95, sum(rate(retrieval_latency_seconds_bucket[5m])) by (le, user))",
+            "legendFormat": "Retrieval p95 ({{user}})"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 12, "y": 0, "w": 12, "h": 8 }
+      },
+      {
+        "type": "graph",
+        "title": "Document Upload Latency",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, sum(rate(upload_latency_seconds_bucket[5m])) by (le, user))",
+            "legendFormat": "Upload p95 ({{user}})"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 0, "y": 8, "w": 12, "h": 6 }
+      },
+      {
+        "type": "bargauge",
+        "title": "Document Chunks per Upload",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, sum(rate(document_chunks_uploaded_bucket[5m])) by (le, user))",
+            "legendFormat": "{{user}}"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 12, "y": 8, "w": 12, "h": 6 }
+      },
+      {
+        "type": "stat",
+        "title": "Failures (per user)",
+        "targets": [
+          { "expr": "sum by(user)(upload_failures_total)", "legendFormat": "Upload {{user}}" },
+          { "expr": "sum by(user)(retrieval_failures_total)", "legendFormat": "Retrieval {{user}}" },
+          { "expr": "sum by(user)(llm_failures_total)", "legendFormat": "LLM {{user}}" },
+          { "expr": "sum by(user)(query_failures_total)", "legendFormat": "Query {{user}}" }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 0, "y": 14, "w": 12, "h": 6 }
+      },
+      {
+        "type": "gauge",
+        "title": "Queries in Progress",
+        "targets": [
+          { "expr": "sum by(user)(queries_in_progress)", "legendFormat": "{{user}}" }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 12, "y": 14, "w": 6, "h": 6 }
+      },
+      {
+        "type": "gauge",
+        "title": "Retrievals in Progress",
+        "targets": [
+          { "expr": "sum by(user)(retrievals_in_progress)", "legendFormat": "{{user}}" }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 18, "y": 14, "w": 6, "h": 6 }
+      },
+      {
+        "type": "gauge",
+        "title": "LLMs in Progress",
+        "targets": [
+          { "expr": "sum by(user)(llms_in_progress)", "legendFormat": "{{user}}" }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 0, "y": 20, "w": 12, "h": 6 }
+      },
+      {
+        "type": "graph",
+        "title": "Total Queries & Uploads per User",
+        "targets": [
+          { "expr": "increase(total_queries[10m])", "legendFormat": "Queries {{user}}" },
+          { "expr": "increase(total_uploads[10m])", "legendFormat": "Uploads {{user}}" }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": { "x": 12, "y": 20, "w": 12, "h": 6 }
+      }
+    ]
+  }
+}
