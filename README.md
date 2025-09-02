@@ -35,15 +35,15 @@ The high-level system architecture and the system front end are displayed in the
 Examples of how the system provide answers through the Streamlit front end are provided in the series of figures below:
 
 ---
-#### Query: 
+#### Query: How does GE Aerospace contribute to defense and propulsion technologies? Cite references
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2c086c66-62ec-48c2-85c7-bcc04e2fb81d" />
 
 ---
-#### Query: 
+#### LLM System response
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/be2751f2-da61-4c45-9717-e9ddaf2c670d" />
 
 ---
-#### Query: 
+#### Further LLM system response
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e5d3f08d-73d4-48e9-83ac-de5a4a0f95ed" />
 
 ---
