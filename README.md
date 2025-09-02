@@ -146,7 +146,7 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 ---
 
-##### The set of figure below shows some metrics captured  by Grafana from data logged by Prometheus. The metrics are obtained by navigating to Explore &#8594;
+##### The set of figure below shows some metrics captured  by Grafana from data logged by Prometheus. The metrics are obtained by navigating to Explore &#8594;  :arrow_right:
 
 ---
 
