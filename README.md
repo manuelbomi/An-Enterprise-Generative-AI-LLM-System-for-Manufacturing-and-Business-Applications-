@@ -34,36 +34,49 @@ The high-level system architecture and the system front end are displayed in the
 
 Examples of how the system provide answers through the Streamlit front end are provided in the series of figures below:
 
----
-#### Query: How does GE Aerospace contribute to defense and propulsion technologies? Cite references
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2c086c66-62ec-48c2-85c7-bcc04e2fb81d" />
+#### Query: How does GE Vernova's top product delivers on 4R circulatory framework?
 
----
-#### LLM System response
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/be2751f2-da61-4c45-9717-e9ddaf2c670d" />
-
----
-#### Further LLM system response
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e5d3f08d-73d4-48e9-83ac-de5a4a0f95ed" />
-
----
-#### Query: 
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/066931cc-5cb6-4733-900c-19449a2cc3d2" />
 
 ---
-#### Query: 
+
+#### LLM System Response
+
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/7412f8cf-4215-4f47-a3b7-231586745752" />
 
 ---
-#### Query: 
+### Further LLM system's response
+
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/7f457d46-be6b-4c7f-a4c0-77442155969a" />
 
 ---
-#### Query: 
+
+####  Further LLM system's response
+
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/076095f7-c0cf-425a-a08b-bf50d8efa56b" />
 
 ---
-#### Query: 
+
+#### Query: How does GE Aerospace contribute to defense and propulsion technologies? Cite references
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/2c086c66-62ec-48c2-85c7-bcc04e2fb81d" />
+
+---
+
+#### LLM System's response
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/be2751f2-da61-4c45-9717-e9ddaf2c670d" />
+
+---
+
+#### Further LLM system's  response
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/e5d3f08d-73d4-48e9-83ac-de5a4a0f95ed" />
+
+---
+
+#### Query: Is there any relationship between GE Vernova and GE Aerospace? 
+
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/14476f66-2876-4d06-8773-d9ce1c7cdd99" />
 
 
