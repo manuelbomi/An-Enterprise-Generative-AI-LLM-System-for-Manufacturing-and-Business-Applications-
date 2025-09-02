@@ -142,11 +142,11 @@ Prometheus timeseries database is used to scrape important system metrics such a
 
 ---
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/021ebcd4-5531-440b-bfe2-53255cf42bba" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/82aa4013-b745-4f74-bd4f-4acb51eda658" />
 
 ---
 
-##### A figure showing the LLM latency as captured  by Grafana from data logged by Prometheus  is shown below:
+##### The set of figure below shows some metrics captured  by Grafana from data logged by Prometheus. The metrics are obtained by navigating to Explore &#8594;
 
 ---
 
