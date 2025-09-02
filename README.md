@@ -267,10 +267,10 @@ The solution can then be deployed via a .github/workflow yaml jobs onto a cloud 
 The Enterprise Architect may desire to deploy the system for other use cases in the enterprise. It is observable that a significant portion of the code in main.py is encapsulated within callable functions. Using callable functions will enable the Solution or Enterprise Architect to easily deploy the system for other applications. Also, using callable functions is fundamental to good MLOps and CI/CD pratices. With callable functions, adjustements or adding new features to the project can easily be accomplished. Also, productionising the system will be easy and robust after any adjustment or new feature addition.  
 
 #### Using ZenML or Airflow for MLOps
-Orcestration tools such as ZenML or Airflow can be used together with CI/CD tools such as Github Actions. Using ZenML or Airflow will aid robust MLOps strategies across the enterprise. 
+Orchestration tools such as ZenML or Airflow can be used together with CI/CD tools such as Github Actions. Using ZenML or Airflow will aid robust MLOps strategies across the enterprise. 
 
 #### Kubeflow for deploying on Kubernetes 
-As usesrs of the system increases, there may be a need to scale up the number of Kubernetes pods and Docker nodes that are used in production. Using tools such as Kubeflow as orchestrating tool will enable such scaling up to be easily achieved. This will lead to a very reactive and robust system that seamlessly serves its enterprise objectives.   
+As usesrs of the system increases, there may be a need to scale up the number of Kubernetes pods and Docker nodes that are used in production. Using tools such as Kubeflow as orchestration tool will enable such scaling up to be easily achieved. This will lead to a very reactive and robust system that seamlessly serves its enterprise objectives.   
 
 
 
