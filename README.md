@@ -192,7 +192,8 @@ As mentioned earlier, to be able to deploy the solution for other applications i
 ---
 
 #### Create a new index on Pinecone
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/9795a732-4745-457a-84c3-215e06007a1d" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/7391a667-6e4b-4da8-a548-8dbb134d9410" />
+
 
 ---
 
@@ -207,7 +208,8 @@ As mentioned earlier, to be able to deploy the solution for other applications i
 ---
 
 #### The new index will be available under the set of indexes available on your Pinecone homepage
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/c38337cf-0662-4675-bc4f-a9b95a17a1c8" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/ee0cffcc-d03e-4c94-9fd7-cc5f42215f6b" />
+
 
 
 ### Setting up the project for On-Prem or Cloud Deployments
@@ -231,7 +233,7 @@ After cloning, the project can be run using **docker-compose up --build** . The 
 
 OpenAI API key is used to obtain key that facilitate the usage of OpenAPI Embeddings. Langchain is used to connect the OpenAPI Embedding and the vectorized healthcare data to the Pinecone vector database. An example of the project back end running on VSCode is shown in the figure below:
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4ede62a2-7903-43f0-b916-a4dc732de390" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4798ecd3-3bf8-4ab6-8595-6e1c7002a671" />
 
 ---
 
