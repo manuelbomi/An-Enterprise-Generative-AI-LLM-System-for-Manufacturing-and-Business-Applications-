@@ -291,9 +291,9 @@ As usesrs of the system increases, there may be a need to scale up the number of
 
 
 --
-Thank you for reading through
-
+Thank you for reading
 ---
+
 ### **AUTHOR'S BACKGROUND**
 ### Author's Name:  Emmanuel Oyekanlu
 ```
