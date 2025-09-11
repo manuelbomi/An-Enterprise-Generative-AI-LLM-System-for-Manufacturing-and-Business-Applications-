@@ -31,7 +31,7 @@ The high-level system architecture and the system front end is shown in the figu
 
 ---
 
-> [!Note] 
+> [!NOTE] 
 
 > ## Free Online Usage of the App
 > #### Interested Users can navigate to  *https://app.emmanueloyekanluprojects.com/* to interract with the app. The app can answer questions relating to *University of Maryland Health System, GE Vernova and GE Aerospace*. These use cases were selected at random, and their freely available data embeddings are stored in Pinecone.
@@ -39,9 +39,13 @@ The high-level system architecture and the system front end is shown in the figu
 > #### The online app is currently hosted on Azure Kubernetes Cluster (AKS). 
 > #### The app was hosted alongside its monitoring tools. Interested readers can observe the monitoring tools at: https://grafana.emmanueloyekanluprojects.com/login (for Grafana) ; and      https://prometheus.emmanueloyekanluprojects.com/query  (for Prometheus)
 
-
-
 ---
+
+> [!NOTE]
+> In some companies, the duties or tasks assigned to the data architect, system architect, data modeler, database engineer, data engineer or software engineer may ovelap. In most cases however, these engineers must often work hand-in-hand to achieve the desired objectives. 
+---
+
+
 ### System Streamlit Front-End
 
 Examples of how the system provide answers via the Streamlit front end are provided in the series of figures below:
