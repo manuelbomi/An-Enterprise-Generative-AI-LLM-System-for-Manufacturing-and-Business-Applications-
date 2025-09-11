@@ -45,6 +45,10 @@ The app was hosted alongside its monitoring tools. Interested readers can observ
 > ### Free Online Usage of the App
 > ### *Streamlit Front End*
 > Interested Users can navigate to  *https://app.emmanueloyekanluprojects.com/* to interract with the app. The app can answer questions relating to *University of Maryland Health System, GE Vernova and GE Aerospace*. These use cases were selected at random, and their freely available data embeddings are stored in Pinecone.
+> Users can upload their own data and then query the system. Although, the app was designed to upload and embed various type of enterprise data, but due to cost implication, only pdf are currently allowed at the backend (see the code).
+> 
+> The online app is currently hosted on Azure Kubernetes Cluster (AKS). 
+> 
 ---
 
 
