@@ -43,7 +43,8 @@ The app was hosted alongside its monitoring tools. Interested readers can observ
 
 > [!NOTE]
 > ### Free Online Usage of the App
-> In some companies, the duties or tasks assigned to the data architect, system architect, data modeler, database engineer, data engineer or software engineer may ovelap. In most cases however, these engineers must often work hand-in-hand to achieve the desired objectives. 
+> ### *Streamlit Front End*
+> Interested Users can navigate to  *https://app.emmanueloyekanluprojects.com/* to interract with the app. The app can answer questions relating to *University of Maryland Health System, GE Vernova and GE Aerospace*. These use cases were selected at random, and their freely available data embeddings are stored in Pinecone.
 ---
 
 
