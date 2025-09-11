@@ -273,6 +273,17 @@ Orchestration tools such as ZenML or Airflow can be used together with CI/CD too
 As usesrs of the system increases, there may be a need to scale up the number of Kubernetes pods and Docker nodes that are used in production. Using tools such as Kubeflow as orchestration tool will enable such scaling up to be easily achieved. This will lead to a very reactive and robust system that seamlessly serves its enterprise objectives.   
 
 
+## Free Online Usage of the App
+#### Interested Users can navigate to  *https://app.emmanueloyekanluprojects.com/* to interract with the app. The app can answer questions relating to *University of Maryland Health System, GE Vernova and GE Aerospace*. These use cases were selected at random, and their freely available data embeddings are stored in Pinecone.
+
+#### Users can upload their own data and then query the system. Although, the app was designed to upload and embed various type of enterprise data, but due to cost implication, only pdf are currently allowed at the backend (see the code). 
+
+#### The online app is currently hosted on Azure Kubernetes Cluster (AKS). 
+
+#### The app was hosted alongside its monitoring tools. Interested readers can observe the monitoring tools at: https://grafana.emmanueloyekanluprojects.com/login (for Grafana) ; and      https://prometheus.emmanueloyekanluprojects.com/query  (for Prometheus)
+
+
+
 
 
 
