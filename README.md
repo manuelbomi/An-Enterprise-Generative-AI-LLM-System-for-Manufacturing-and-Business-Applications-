@@ -30,7 +30,9 @@ The high-level system architecture and the system front end is shown in the figu
 <img width="831" height="381" alt="Image" src="https://github.com/user-attachments/assets/867b4609-af48-4afe-8242-9d521d62710f" />
 
 ---
-[!Note] 
+
+> [!Note] 
+
 > ## Free Online Usage of the App
 > #### Interested Users can navigate to  *https://app.emmanueloyekanluprojects.com/* to interract with the app. The app can answer questions relating to *University of Maryland Health System, GE Vernova and GE Aerospace*. These use cases were selected at random, and their freely available data embeddings are stored in Pinecone.
 > #### Users can upload their own data and then query the system. Although, the app was designed to upload and embed various type of enterprise data, but due to cost implication, only pdf are currently allowed at the backend (see the code). 
@@ -49,6 +51,11 @@ Examples of how the system provide answers via the Streamlit front end are provi
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/066931cc-5cb6-4733-900c-19449a2cc3d2" />
 
 ---
+
+
+> [!NOTE]
+> In some companies, the duties or tasks assigned to the data architect, system architect, data modeler, database engineer, data engineer or software engineer may ovelap. In most cases however, these engineers must often work hand-in-hand to achieve the desired objectives. 
+---  
 
 #### LLM System Response
 
