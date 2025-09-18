@@ -213,7 +213,7 @@ col1, col2 = st.columns([1, 2])
 
 # ----- LEFT COLUMN -----
 with col1:
-    st.markdown("### 👤 User Info")
+    st.markdown("###  User Info")
     user_id = st.text_input("Enter your user ID", value="anonymous")
 
     st.markdown("### 📂 Upload Documents")
@@ -227,13 +227,13 @@ with col1:
                 f.write(file.read())
         st.success("✅ Files uploaded successfully!")
 
-    if st.button("📤 Process & Upload to Pinecone"):
+    if st.button(" Process & Upload to Pinecone"):
         init_pinecone()
         docs = load_and_split_documents("documents")
         embeddings = get_embeddings()
         upload_documents_to_pinecone(docs, embeddings, user_id)
 
-    with st.expander("🧹 Reset Conversation"):
+    with st.expander(" Reset Conversation"):
         if st.button("Clear Chat History"):
             st.session_state.chat_history = []
             st.success("Chat history cleared.")
@@ -264,7 +264,7 @@ with col2:
                     st.markdown(response)
                     st.session_state.chat_history.append({"role": "assistant", "content": response})
 
-                    with st.expander("📚 Source Documents"):
+                    with st.expander(" Source Documents"):
                         for i, doc in enumerate(result["source_documents"]):
                             st.markdown(f"**Source {i + 1}:**")
                             st.write(doc.page_content[:500] + "...")
