@@ -1,4 +1,4 @@
-# An Enterprise Generative-AI LLM System for Manufacturing and Business Applications 
+# An Enterprise Generative-AI LLM System for Manufacturing and Business Applications
 
 
 We present an enterprise large language model  (LLM) system that could be deployed by manufacturing and business leaders for manufacturing process analysis,  knowledge discovery, project assistance, and  manufacturing/business topic aggregation. The LLM system features a user interface (UI) that is similar to the ChatGPT UI through which manufacturing or business professionals can interact with, and query their own data warehoused as vector embeddings in a vector database (Pinecone). 
