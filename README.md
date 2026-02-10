@@ -59,9 +59,7 @@ Examples of how the system provide answers via the Streamlit front end are provi
 ---
 
 
-> [!NOTE]
-> In some companies, the duties or tasks assigned to the data architect, system architect, data modeler, database engineer, data engineer or software engineer may ovelap. In most cases however, these engineers must often work hand-in-hand to achieve the desired objectives. 
----  
+  
 
 #### LLM System Response
 
